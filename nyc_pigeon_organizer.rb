@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each do |property, hash|
     hash.each do |attribute, array|
       array.each do |name|
-        if 
+        if !new_hash
     
   
   puts data
