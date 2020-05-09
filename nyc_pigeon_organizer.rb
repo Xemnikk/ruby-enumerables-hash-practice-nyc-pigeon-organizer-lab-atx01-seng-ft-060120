@@ -3,4 +3,4 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
   puts data
 end
-puts nyc_pigeon_organizer(data)
+puts nyc_pigeon_organizer()
