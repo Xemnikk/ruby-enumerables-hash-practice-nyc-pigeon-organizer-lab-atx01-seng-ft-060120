@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(data)
   end 
 new_hash
 end
-puts {
+puts nyc_pigeon_organizer( {
   :color => {
     :brown => ["Luca"],
     :black => ["Lola"],
