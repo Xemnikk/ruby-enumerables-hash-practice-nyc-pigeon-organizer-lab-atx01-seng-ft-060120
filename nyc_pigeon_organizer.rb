@@ -10,6 +10,9 @@ def nyc_pigeon_organizer(data)
     
   
   puts data
+end 
+end 
+end 
 end
 puts nyc_pigeon_organizer(pigeon_data = {
   :color => {
