@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   new_hash = {}
   data.each { |k, v|
-    k == v
+    k.push(v)
   }
   puts data
 end
