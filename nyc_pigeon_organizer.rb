@@ -10,6 +10,8 @@ def nyc_pigeon_organizer(data)
         if !new_hash[name].has_key?(property)
           new_hash[name][property] = []
         end 
+        if !new_hash[name][property].has_key?(attribute)
+          new_hash[name][property] << 
     
   
   puts data
