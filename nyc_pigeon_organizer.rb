@@ -2,7 +2,8 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   new_hash = {}
   data.each do |property, hash|
-    hash.each do |
+    hash.each do |attribute, array|
+      array.each do 
     
   
   puts data
